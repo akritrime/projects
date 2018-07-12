@@ -44,6 +44,13 @@ header {
             list-style-type: none;
             font-family: $msf;
             font-size: 1rem;
+
+            li {
+                a, a:visited {
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
         }
 
         .clicked {
