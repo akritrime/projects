@@ -1,0 +1,45 @@
+Arguments: 
+  /home/sayantan/.nvm/versions/node/v9.3.0/bin/node /home/sayantan/.yarn/bin/yarn.js install node-sass
+
+PATH: 
+  /home/sayantan/go/bin/:/home/sayantan/Documents/Discord/:/home/sayantan/Documents/binaryen:/home/sayantan/Documents/wabt/out/clang/Debug:/home/sayantan/.yarn/bin:/home/sayantan/.config/yarn/global/node_modules/.bin:/home/sayantan/.nvm/versions/node/v9.3.0/bin:/home/sayantan/bin:/usr/local/bin:/home/sayantan/anaconda3/bin:/home/sayantan/bin:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/usr/lib64/qt-3.3/bin:/home/sayantan/.cargo/bin:/usr/bin:/usr/sbin:/home/sayantan/bin:/home/sayantan/Android/Sdk/tools/bin:/home/sayantan/Android/Sdk/platform-tools:/opt/pycharm/bin:/opt/idea-IU/bin:/home/sayantan/.local/bin:/home/sayantan/Android/Sdk/tools/bin:/home/sayantan/Android/Sdk/platform-tools:/usr/local/go/bin:/home/sayantan/Documents/dart-sdk/bin:/opt/pycharm/bin:/opt/idea-IU/bin:/home/sayantan/.local/bin:/home/sayantan/flutter/bin:/home/sayantan/emsdk-portable:/home/sayantan/emsdk-portable/clang/fastcomp/build_incoming_64/bin:/home/sayantan/emsdk-portable/node/8.9.1_64bit/bin:/home/sayantan/emsdk-portable/emscripten/incoming:/home/sayantan/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.3.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "projects",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "normalize.css": "^8.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add node-sass" instead.
+      at new MessageError (/home/sayantan/.yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/home/sayantan/.yarn/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/home/sayantan/.yarn/lib/cli.js:98:30)
+      at /home/sayantan/.yarn/lib/cli.js:109:13
+      at <anonymous>
