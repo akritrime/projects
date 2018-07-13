@@ -44,8 +44,10 @@ header {
             list-style-type: none;
             font-family: $msf;
             font-size: 1rem;
+            
 
             li {
+                
                 a, a:visited {
                     text-decoration: none;
                     color: inherit;
@@ -59,9 +61,7 @@ header {
             color: $white;
             // box-sizing: border-box;
             // border: 0.2rem solid $black;
-            // padding-left: 2%;
-            // padding-right: 2%;
-            // // padding: 2%;
+            margin-right: -20%;
             // background: $black;
         }
     }
@@ -137,6 +137,9 @@ main {
                 // text-decoration: underline;
                 font-weight: bolder;
                 // font-style: normal;
+                &:visited {
+                    color: $red;
+                }
             }
         }
 
